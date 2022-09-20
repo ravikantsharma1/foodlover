@@ -1,0 +1,399 @@
+body{
+    margin:px;
+    padding:px;
+}
+/* navigation bar start*/
+#heading{
+    margin-top:5px;
+    width:100%;
+    height:40px;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: rgb(224, 224, 224);
+}
+.navbar{
+    width:80px;
+    height:28px;
+    margin-right:10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left:20px;
+    padding-top:10px;
+    color:#4b4848;
+}
+#navbar-6{
+    width:57px;
+}
+#navbar-7{
+    width:70px;
+}
+#navbar-2{
+    font-weight: lighter;
+    font-size: 1.1rem;
+    width:62px;
+    height:30px;
+}
+.navbar:hover{
+color: orangered;
+border-bottom: 2px ridge orangered;
+}
+#tt{
+    color:orangered;
+    font-size: 1.6rem;
+}
+#tt:hover{
+    color:#4b4848;
+}
+#navbar-1{
+    font-size: 1.3rem;
+    width:120px;
+    margin-right:600px;
+    border:none;
+
+    
+}
+/*navigation bar end*/
+/*section-1 start*/
+#section-1{
+    width:100%;
+    height:660px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-1-inside{
+    text-align: center;
+    display:inline-block;
+}
+#section-1::before{
+    content:"";
+    position: absolute;
+    top:70px;
+    z-index: -1;
+    background-image: url("background-image-1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:600px;
+    opacity: 0.9;
+}
+#heading-2{
+    font-display: outline;
+    color:wheat;
+    margin-top:150px;
+    font-size: 1.8rem;
+}
+#heading-1{
+    font-family: 'Galada', cursive;
+    font-size: 2.5rem;
+    color:white;
+
+}
+.ttt{
+    font-size:2.8rem;
+    font-style: initial;
+    color:orangered;
+    text-decoration-line: underline;
+}
+#paragraph{
+    color:rgb(224, 224, 224);
+    font-size: 1.2rem;
+    text-align: center;
+    width:80%;
+}
+#buttonclick{
+    background-color: orangered;
+    width:150px;
+    height:45px;
+    font-size: 1.25rem;
+    font-family: fantasy;
+    color:#272424;
+    border:none;
+    cursor: pointer;
+}
+#buttonclick:hover{
+    transition-property: color;
+    transition-duration: 0.4s;
+    color:wheat;
+}
+/*section-2 end*/
+/*About us start*/
+#section-2{
+    width:80%;
+    height:350px;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    margin-top:25px;
+    background-color: #f8efef;
+    position: absolute;
+    z-index: -2;
+    left:130px;
+}
+.section-2-aboutus{
+    width:50%;
+    height:50px;
+
+}
+
+#aboutus-1{
+    height:250px;
+    width:55%;
+    margin:auto;
+    text-align:center;
+    font-size: 1.25rem;
+    color: #585252;
+    margin-top:100px;
+}
+#aboutus-2{
+    height:340px;
+    width:40%;
+    margin:auto;
+}
+#aboutus{
+    position: absolute;
+    z-index: -1;
+    height:50px;
+    width:150px;
+    margin-left:190px;
+    margin-top:10px;
+    padding:0px;
+    font-size: 1.58rem;
+    padding-left:60px;
+    font-family: 'Galada', cursive;
+    color:orangered;
+
+
+}
+/*about us end*/
+/*fresh fruits start*/
+#fresh{
+    width:90%;
+    margin:auto;
+    margin-top:400px;
+    color:orangered;
+    text-align: center;
+    font-family: 'Galada', cursive;
+}
+#section-3{
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    height:250px;
+    margin:auto;
+    margin-top:10px;
+    background-image: url("background-image-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#groceries{
+    width:500px;
+    height:50px;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top:50px;
+    color:#4b4848;
+}
+#groceriesclick{
+    color:#504b4b;
+    width:160px;
+    height:50px;
+    text-align: center; 
+    margin-left:170px;
+    font-size:1.8rem;
+    
+    font-family: 'Galada', cursive;
+    border:none;
+    border:2px solid orangered;
+}
+#groceriesclick:hover{
+    transition-property: background-color;
+    transition-duration: 0.4s;
+    color:white;
+    background-color: orangered;
+}
+/*Fresh fruits end*/
+
+/*Famous meal start*/
+.famousmeal{
+    width:90%;
+    margin:auto;
+    color:orangered;
+    text-align: center;
+    font-family: 'Galada', cursive;
+}
+
+
+
+/*Famous meal end*/
+#section-5{
+    width:90%;
+    height:750px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+#section-5-1{
+    display: flex;
+    width:100%;
+    height:260px;
+    justify-content: space-evenly;
+}
+#section-5-2{
+    display:flex;
+    width:100%;
+    height:260px;
+    justify-content: space-evenly;
+}
+#section-5-3{
+    display:flex;
+    width:100%;
+    height:260px;
+    justify-content: space-evenly;
+}
+.section-5-inside-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    height:220px;
+    margin-top:5px;
+    margin-bottom:0px;
+
+}
+.section-5-inside-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    height:220px;
+    margin-top:5px;
+    margin-bottom:0px;
+
+}
+.section-5-inside-3{
+    display: flex;
+    margin-top:5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:300px;
+    height:220px;
+    margin-bottom:0px;
+
+}
+.pizza{
+    width:95%;
+    height:180px;
+}
+.pizza:hover{
+    transition-property: width;
+    transition-property: height;
+    transition-property:transform;
+    transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    transition-duration: 1s;
+    box-shadow: 10px 10px 15px rgb(77, 72, 72);   
+    width: 100%;
+    height:190px;
+}
+.divtt{
+    display: flex;
+    flex-direction: row;
+    width:250px;
+    height:30px;
+}
+.headingtt{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    width:182px;
+    height:30px;
+    margin-right: 5px;
+    margin-top:0px;
+    color:#6b5f5f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pricingtt{
+    color:orangered;
+    height:30px;
+    border-radius: 1px;
+    font-size: 1.1rem;
+    margin-top: 0px;
+    padding-top:3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.pricingtt:hover{
+    visibility: visible;
+}
+
+#viewalldetail{
+    width:115px;
+    height:32px;
+    margin:auto;
+    margin-top:30px;
+    margin-bottom:40px;
+    padding-left:35px;
+    padding-top:10px;
+    font-size: 1.25rem;
+    background-color: orangered;
+    font-family: fantasy;
+    color:#383636;
+}
+#viewalldetail:hover{
+    transition-property: color;
+    transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    color:rgb(253, 253, 253);
+    background-color:orangered;
+}
+#section-6{
+    width:80%;
+    height:400px;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-6-inside{
+    width:250px;
+    height:350px;
+    border:1px solid orangered;
+}
+.section-6-inside:hover{
+    transition-property: width;
+    transition-property: height;
+    transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    width:265px;
+    height:370px;
+    box-shadow: 0px 7px 5px orangered;
+    border-bottom: 5px solid orangered;
+}
+.imageservices{
+    width:100%;
+    height:200px;
+    margin:auto;
+}
+.headingservices{
+    color: #3a3737;
+    width:95%;
+    margin:auto;
+    height:30px;
+    text-align: center;
+
+}
+.paragraphservices{
+    color:#4b4848;
+    width:95%;
+    margin:auto;
+    margin-top:20px;
+    height:90px;
+    text-align: center;
+    font-size: 1.2rem;
+}
